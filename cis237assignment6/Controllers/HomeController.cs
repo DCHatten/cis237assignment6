@@ -15,14 +15,14 @@ namespace cis237assignment6.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The history of Willie's Wine Shop:";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Questions? Comments? Complaints?  Contact us!";
 
             return View();
         }
